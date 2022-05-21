@@ -26,7 +26,7 @@ const form = () => {
   <span class="input-group-text">Artist and Title</span>
   <input id="artist" type="text" aria-label="Artist name" class="form-control">
   <input id="title" type="text" aria-label="Title" class="form-control">
-  <button class="btn btn-primary" id="button" type="submit" >Get lyrics!</button>
+  <button class="btn btn-primary" id="button" type="submit" style="background-color: brown; border-color: black" >Get lyrics!</button>
 </div>`;
   renderToDom('#app', domString);
 };
